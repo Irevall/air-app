@@ -19,6 +19,8 @@
   .app {
     display: grid;
     min-height: 100vh;
+    justify-content: center;
+    align-items: center;
   }
 
   .app__background-wrapper {

@@ -78,6 +78,7 @@ module.exports = {
     new DefinePlugin({
       PRODUCTION: JSON.stringify(process.env.PRODUCTION === 'true'),
       GOOGLE_API_KEY: JSON.stringify(process.env.GOOGLE_API_KEY),
+      OPWEATHER_API_KEY: JSON.stringify(process.env.OPWEATHER_API_KEY)
     })
   ],
   resolve: {
