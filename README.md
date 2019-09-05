@@ -1,4 +1,4 @@
-### AirApp
+### [AirApp](https://irevall.github.io/air-app/)
 ##### Simple weather App, written with Vue as a recruitment task
 
 #### Set up

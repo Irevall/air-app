@@ -7,7 +7,7 @@ export default [
   {
     path: '/details/:city',
     name: 'details',
-    component: () => import('@/components/app-details'),
+    component: () => import('@/components/app-details'), props: (route) => ({ query: route.params.city }),
   },
   {
     path: '*',
