@@ -1,0 +1,43 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+
+  @include laptop {
+    font-size: 12px;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
+
+abbr {
+  text-decoration: underline;
+}
+
+table {
+  position: relative;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+thead > tr:last-child > th {
+  border-bottom: 1px solid var(--color-border);
+}
+
+tbody > tr:nth-child(2n) > td {
+  background: rgba(black, 0.05);
+}
+
+tbody > tr:hover > td {
+  background: rgba(black, 0.15);
+}
